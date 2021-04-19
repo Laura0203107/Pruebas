@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+	<title>WEB DOM</title>
+</head>
+<body>
+	<H1>WEB DOM</H1>
+	<script>
+		let texto="Bienvenidos a Ingenieria Web"
+		const sonido=(texto)=>speechSynthesis.speak(new SpeechSynthesisUtterance(texto))
+		sonido(texto);
+		console.log(document)
+		console.log(window)
+	</script>
+</body>
+</html>
