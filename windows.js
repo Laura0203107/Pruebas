@@ -7,7 +7,7 @@ var navegador = window.navigator.userAgent;
 window.document.write(navegador);
 
 //Redireccion a google se usa la propiedad Location Object
-window.location.href = "https://facebook.com/";
+window.location.href = "https://youtube.com/";
 
 
 //Metodo Open por medio de un boton
